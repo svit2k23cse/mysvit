@@ -1,0 +1,116 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <%= image_tag "logo.png", class: "navbar-brand", id: "logo" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase smaller">
+        <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./assets/pages/about_us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./assets/pages/acadamics.html">Academics</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Departments
+            </a>
+            <ul class="dropdown-menu ">
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">CIVIL</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">EEE</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">MECH</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">ECE</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">CSE</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">CSE-DS</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">CSE-AI</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/departments.html">H&S</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Campus life
+            </a>
+            <ul class="dropdown-menu ">
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/campus_life.html">Fest</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/campus_life.html">student chapters</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/campus_life.html">facilities</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/campus_life.html">extra curriculum</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Placements
+            </a>
+            <ul class="dropdown-menu ">
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/placements.html">Track record</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-info text-center fw-bold" href="./assets/pages/placements.html">recruiters</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./assets/pages/activity_cell.html">Activity cells</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./assets/pages/nirf.html">nirf</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./assets/pages/press_media.html">press & media</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<script>
+    
+$('ul.navbar-nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+  }, function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
+</script>

@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+
+ #logo{
+    width: 130px;
+ }
+
+ .smaller{
+    font-size: smaller;
+ }
+
+ .navbar{
+    background-image: linear-gradient(to right, #3F2C4C, #4F3E5B, #5B4C67);
+}
+
+.nav-link{
+    color: #d9c57a !important;
+    font-weight: bolder !important;
+}
+
+.dropdown-menu {
+    background-color: #3F2C4C !important;
+}
+
+.header_bg{
+    background-image: linear-gradient(to right, #3F2C4C, #4F3E5B, #5B4C67);
+}
