@@ -14,6 +14,9 @@
  *= require_self
  */
 
+ body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
 
  #logo{
     width: 130px;
