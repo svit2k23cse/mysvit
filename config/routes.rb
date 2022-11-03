@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'department/index'
+  get 'department/show'
   get 'acadamic/index'
   get 'about/index'
   root 'home#index'
