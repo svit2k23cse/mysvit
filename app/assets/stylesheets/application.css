@@ -41,4 +41,6 @@
 
 .header_bg{
     background-image: linear-gradient(to right, #3F2C4C, #4F3E5B, #5B4C67);
+    color: #d9c57a;
+    font-weight: bolder;
 }
