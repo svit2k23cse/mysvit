@@ -1,0 +1,2 @@
+module AcadamicHelper
+end

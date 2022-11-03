@@ -55,6 +55,11 @@
     background-color: #3F2C4C !important;   
 }
 
+.dropdown-item{
+    color: #d9c57a !important;
+    font-weight: bolder !important;
+}
+
 
 .dept_logo {
     height: auto;
