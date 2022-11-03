@@ -44,3 +44,15 @@
     color: #d9c57a;
     font-weight: bolder;
 }
+
+.departments_bg{
+    color: #d9c57a;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom, #3F2C4C, #4F3E5B, #5B4C67);   
+}
+
+.dept_logo {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+  }
