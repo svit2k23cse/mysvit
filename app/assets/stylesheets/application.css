@@ -51,6 +51,11 @@
     background-image: linear-gradient(to bottom, #3F2C4C, #4F3E5B, #5B4C67);   
 }
 
+.section_bg{
+    background-color: #3F2C4C !important;   
+}
+
+
 .dept_logo {
     height: auto;
     width: 100px;

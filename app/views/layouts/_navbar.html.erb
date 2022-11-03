@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase smaller">
         <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="/">Home</a>
+        <%= link_to "Home", root_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./assets/pages/about_us.html">About Us</a>
+            <%= link_to "About Us", about_index_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="./assets/pages/acadamics.html">Academics</a>
