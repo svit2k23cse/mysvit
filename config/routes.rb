@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'placement/index'
   get 'campus/index'
   get 'department/index'
   get 'department/show'
