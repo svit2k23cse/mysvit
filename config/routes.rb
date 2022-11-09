@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'press_and_media/index'
+  get 'nirf/index'
   get 'activity_cell/index'
   get 'placement/index'
   get 'campus/index'
