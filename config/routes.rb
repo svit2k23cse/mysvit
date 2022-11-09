@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'activity_cell/index'
   get 'placement/index'
   get 'campus/index'
   get 'department/index'
